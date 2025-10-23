@@ -3,22 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <title>My Portefolio</title>
+    <meta name="description" content="Adelino Sousa's portfolio, find all my skills">
+    <meta name="keywords" content="portfolio, as, adilson sousa, mr focado, Adilson19">
+    
+    <meta name="author" content="Adelino Sousa">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Adelino Sousa</title>
 </head>
 <body>
-    <header>
+    <!-- Hero section start-->
+    <div class="hero" id="hero">
         <nav>
+            <h2 class="logo">Portf<span>olio</span></h2>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>            
             </ul>
+            <a href="#" class="btn">Subscribe</a>
+            <div class="button-menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </nav>
-    </header>
-    <main></main>
+        <!--menu mobile-->
+        <div class="menu-mobile hidden">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+            <a href="#" class="btn-mobile">Subscribe</a>
+        </div>
+    <!--end-->
 
-    <footer></footer>
+        <div class="content">
+            <h4>Hello, my name is</h4>
+            <h1>Adelino <span>Sousa</span></h1>
+            <h3>I'm a Software Developer</h3>
+            <div class="newsletter">
+                <form action="">
+                    <input type="email" name="email" placeholder="Enter your email"/>
+                    <input type="button" value="Let's Start"/>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- end hero -->
+
+    <!--About section start-->
+    <section class="about" id="about">
+        <div class="main">
+            <img src="./img/002.png" alt="" data-anime="left"/>
+            <div class="about-text" data-anime="right">
+                <h2>About Me</h2>
+                <h5>Developer <span>& Machine Learning Entusiasth</span></h5>
+                <p>
+                    I'm Adelino Sousa, a passionate Software Developer with a keen interest in Machine Learning. 
+                    I love creating innovative solutions that leverage technology to solve real-world problems. 
+                    With a strong foundation in programming and a continuous drive to learn, I strive to stay at the forefront of technological advancements.
+                </p>
+                <button type="button">Let's Talk</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Languages section start-->
+    <section class="languages" id="languages">
+        <div title="title">
+            <h6>Languages and Frameworks</h6>
+        </div>
+
+        <div class="row">
+            <div class="card-language">
+                <img src="./images/icons/css_icon.png" alt="">
+            </div>
+        </div>
+
+    </section>
     <script src="/assets/js/script.js"></script>
 </body>
 </html>
